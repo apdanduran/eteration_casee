@@ -1,0 +1,95 @@
+.basket__product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+
+.basketCover {
+    width: 300px;
+    height: -moz-fit-content;
+    height: fit-content;
+    max-height: 500px;
+    background: white;
+    box-shadow: var(--shadow-color);
+    padding: 10px;
+}
+
+.basketAndTotalPrice{
+    margin-top: 30px;
+}
+
+.basket__productName {
+    width: 100%;
+}
+
+.basket__productPrice {
+    font-size: 16px;
+    color: var(--primary-color);
+}
+
+.basket__input {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    outline: none;
+    color: white;
+}
+
+.basket__plus,
+.basket__minus {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    outline: none;
+    border: 1px solid #f9f9f9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.basket__controls {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.basket__totalPriceCover{
+    display: flex;
+}
+
+.basket__totalPrice{
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.basket__checkOutBtn{
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    background: var(--primary-color);
+    color: white;
+    outline: none;
+    margin-top: 5px;
+    border: 1px solid var(--primary-color);
+}
+
+.totalPrice__checkOut{
+    width: 300px;
+    height: 82px;
+    background: white;
+    padding: 11px;
+    margin-top: 15px;
+}
+
+@media (max-width:950px) {
+    .sideBar{
+        max-width: 360px;
+        width: 100%;
+    }
+}

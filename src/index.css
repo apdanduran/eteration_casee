@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: MontserratRegular;
+}
+
+:root {
+  --primary-color: #2A59FE;
+  --text-color: #000000;
+  --shadow-color: 0px 0px 10px rgba(162, 170, 180, 0.25);
+}
+
+body {
+  font-family: "Roboto", 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  max-width: 1440px;
+  margin: auto;
+  height: 100%;
+  background: #F9F9F9;
+}
+
+button:hover {
+  transform: scale(1.03);
+  transition: all ease .2s;
+  cursor: pointer;
+}
+
+/****** Scroll styless ******/
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/******* font-family *****/
+@font-face {
+  font-family: MontserratBold;
+  src: url(../public/fontFamily/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url(../public/fontFamily/Montserrat-Medium.ttf);
+}
+
+
+@font-face {
+  font-family: MontserratRegular;
+  src: url(../public/fontFamily/Montserrat-Regular.ttf);
+}
